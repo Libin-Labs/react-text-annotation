@@ -1,0 +1,25 @@
+.lp-annotations {
+  --annotation-color: #fff0a3;
+  font: inherit;
+}
+.lp-annotations-text {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.lp-annotations mark {
+  background: var(--annotation-color);
+  color: inherit;
+}
+.lp-annotations textarea {
+  display: block;
+  min-height: 4rem;
+  width: min(100%, 30rem);
+}
+.lp-annotations button {
+  margin: 0.25rem;
+  font: inherit;
+}
+.lp-annotations :focus-visible {
+  outline: 2px solid #2459b8;
+  outline-offset: 2px;
+}
